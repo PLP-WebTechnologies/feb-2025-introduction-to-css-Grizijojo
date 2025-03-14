@@ -1,0 +1,96 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Welcome to My Styled Page</h1>
+    </header>
+
+    <main>
+        <div class="content">
+            <p>This is some styled text. We are using classes and IDs to apply different styles.</p>
+            <img src="placeholder-image.jpg" alt="A placeholder image">
+        </div>
+
+        <div class="content">
+            <h2>Another Section</h2>
+            <p>More styled text here. Notice the different font and spacing.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Styled Page</p>
+    </footer>
+
+</body>
+</html>
+```
+
+```css
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#main-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #007bff;
+    border-radius: 8px;
+}
+
+.content h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+}
+```
+
+**Key improvements:**
+
+* **External CSS:** The HTML links to `style.css`.
+* **Selectors:** Uses tag selectors (`body`, `footer`), ID selectors (`#main-header`), and class selectors (`.content`).
+* **Image Styling:** Styles the image with a border, border radius, and centered display.
+* **Margins, Padding, Borders:** Applies margins, padding, and borders to the `content` class.
+* **Typography:** Sets a default font for the body and styles headings.
+* **Color:** Uses different colors for the header, text, and borders.
+* **Readability:** Improved spacing and visual hierarchy.
+* **Placeholder Image** Added a placeholder image tag, this will only work if an image called placeholder-image.jpg is in the same directory as the html file.
+
+Citations: [[1]](https://github.com/Torien-TORIEN/AppInvator-API_PHP), [[2]](https://www.shecodes.io/athena/38022-how-to-add-and-style-images-in-html)
